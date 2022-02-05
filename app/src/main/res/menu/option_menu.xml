@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/hom"
+        android:title="home"
+        android:onClick="optionMenuHome"/>
+    <item
+        android:id="@+id/cal"
+        android:title="call" />
+    <item
+        android:id="@+id/cam"
+        android:title="camera" />
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+    <item
+        android:id="@+id/edit"
+        android:title="Edit"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_baseline_edit_24"
+        />
+    <item
+        android:id="@+id/search"
+        android:title="search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+</menu>
